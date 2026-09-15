@@ -181,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,6 +199,7 @@
   },
   "active": "660706c587a84c35",
   "lastOpenFiles": [
+    "README.md",
     "La Unificación.md",
     "Ecuación de Schrödinger.md",
     "Masa.md",
@@ -223,7 +225,6 @@
     "Teoría de la Relatividad.md",
     "Energía.md",
     "Max Planck.md",
-    "Niels Bohr.md",
     "wiki/schema",
     "wiki/sources",
     "wiki/concepts",

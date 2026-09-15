@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "ba1075377bed57cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "8086f1051380d909",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "660706c587a84c35",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "54ac63eb67bce3ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "573a5678d377d904",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce038bb3d44e70bf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "23894cd6f2dcfc2f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "93a9b8c0116ce053",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "becb77cca653b8fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "1de1fd46547f536f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7104d7abe82b283f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Mecánica Cuántica.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "3393a3f22b859ff2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Mecánica Cuántica.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "42f9961728984606",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "20a97c6ec0dbcd10",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "98db5338644a471a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Mecánica Cuántica.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          },
+          {
+            "id": "8ca2fc86f2ca9523",
+            "type": "leaf",
+            "state": {
+              "type": "llm-wiki-query-view",
+              "state": {},
+              "icon": "message-circle",
+              "title": "Consultar Wiki - Consulta conversacional"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 275.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "karpathywiki:Ingerir archivo actual": false,
+      "karpathywiki:Consultar wiki": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "660706c587a84c35",
+  "lastOpenFiles": [
+    "La Unificación.md",
+    "Ecuación de Schrödinger.md",
+    "Masa.md",
+    "[masa.md",
+    "Dualidad onda-partícula.md",
+    "Entrelazamiento cuántico.md",
+    "Principio de incertidumbre.md",
+    "Posición.md",
+    "posicion.md",
+    "Superposición cuántica.md",
+    "Cantidad de movimiento.md",
+    "Velocidad.md",
+    "Física.md",
+    "Bosones.md",
+    "Física de Partículas.md",
+    "Quarks.md",
+    "Gluones.md",
+    "Mecánica Cuántica.md",
+    "Erwin Schrödinger.md",
+    "Física Clásica.md",
+    "Isaac Newton.md",
+    "Aceleración.md",
+    "Teoría de la Relatividad.md",
+    "Energía.md",
+    "Max Planck.md",
+    "Niels Bohr.md",
+    "wiki/schema",
+    "wiki/sources",
+    "wiki/concepts",
+    "wiki/entities",
+    "wiki",
+    "Imagen Ramas de la Fisica.png",
+    "Imagen_Teoria_de_la_relatividad.png",
+    "Sin nombre 1",
+    "Sin nombre"
+  ]
+}

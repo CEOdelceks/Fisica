@@ -1,0 +1,150 @@
+{
+  "provider": "lmstudio",
+  "apiKey": "",
+  "openAICodexSecretId": "karpathywiki-openai-codex",
+  "providerApiKeySecretId": "karpathywiki-provider-api-key",
+  "openAICodexModels": [],
+  "openAICodexModelsFetchedAt": 0,
+  "baseUrl": "http://localhost:1234/v1",
+  "model": "text-embedding-nomic-embed-text-v1.5",
+  "markdownConversionBackend": "native",
+  "wikiFolder": "wiki",
+  "language": "es",
+  "wikiLanguage": "es",
+  "useCustomWikiLanguage": false,
+  "availableModels": [
+    "text-embedding-nomic-embed-text-v1.5"
+  ],
+  "useCustomModel": false,
+  "maxConversationHistory": 30,
+  "queryHistory": [
+    {
+      "role": "user",
+      "content": "Cuales son algunos conceptos clave de la mecanica cuantica?",
+      "timestamp": 1789495414285
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola! Como asistente de la wiki, te puedo proporcionar información sobre los conceptos clave de la mecánica cuántica. Aquí tienes algunos puntos importantes:\n\n**1. Cuantización:**\n\n*   **Definición:** La mecánica cuántica describe el universo a nivel atómico y subatómico, donde la energía, el espacio y la materia no son continuos, sino en \"paquetes\" discretos llamados *cuantos*.\n*   **Ejemplo:**  La luz, por ejemplo, se comporta como si estuviera compuesta de cuantos de energía (fotones).  Un átomo de hidrógeno puede tener niveles de energía específicos, como si fuera una escalera con diferentes escalones.\n\n**2. Dualidad Onda-Partícula:**\n\n*   **Definición:** Una propiedad fundamental de la materia es que puede comportarse tanto como onda como partícula.  Esto significa que un electrón, por ejemplo, puede exhibir el comportamiento de una onda (como difractar y interferir) y también el comportamiento de una partícula (como tener una posición definida).\n*   **Experimento clave:** El experimento del gato de Schrödinger es un clásico que ilustra esta dualidad. Un gato encerrado en una caja con un átomo radiactivo se muestra como vivo o muerto hasta que se observa el gato, demostrando la naturaleza probabilística de la materia cuántica.\n\n**3. Principio de Incertidumbre:**\n\n*   **Definición:**  Existe una limitación fundamental en la precisión con la que podemos conocer simultáneamente ciertas propiedades de una partícula, como su posición y momento.\n*   **Formalmente:** El Principio de Incertidumbre establece que no podemos determinar simultáneamente con precisión la posición y el momento de un objeto (o la energía y el tiempo)  si conocemos su velocidad y viceversa. Cuanto más precisamente se conoce una, menos precisamente se puede conocer la otra.\n\n**4. Superposición:**\n\n*   **Definición:** Un sistema cuántico puede existir en múltiples estados simultáneamente hasta que se mide. Es como si un electrón pudiera estar en varios lugares a la vez hasta que le preguntamos cuál es su ubicación.\n*   **Ejemplo:**  Antes de ser observado, un qubit (un bit cuántico) puede representar 0, 1 o una combinación de ambos.\n\n**5. Entrelazamiento Cuántico:**\n\n*   **Definición:** Dos o más partículas pueden estar \"entrelazadas\" de tal manera que si se mide el estado de una partícula, instantáneamente se conoce el estado de la otra, sin importar la distancia entre ellas.  Esta es una característica fundamental y aún no entendida completamente.\n*   **Importancia:** El entrelazamiento permite la comunicación instantánea a través de largas distancias (aunque no se puede usar para enviar información más rápido que la luz).\n\n**Fuentes para investigar más a fondo:**\n\n*   **Wikipedia:** [https://es.wikipedia.org/wiki/Mecanica_cuantica](https://es.wikipedia.org/wiki/Mecanica_cuantica)\n*   **Khan Academy:** [https://www.khanacademy.org/science/physics/quantum-mechanics](https://www.khanacademy.org/science/physics/quantum-mechanics) (Tiene explicaciones accesibles para principiantes).\n*   **Ciencia en Lectura:** [https://www.cienciadelectura.com/cuantica](https://www.cienciadelectura.com/cuantica) (Un buen sitio con artículos explicativos y recursos visuales.)\n\nEspero que esta información te sea útil. ¿Hay algo específico sobre la mecánica cuántica que te gustaría saber más? ¡Pregunta!\n",
+      "timestamp": 1789495458153
+    },
+    {
+      "role": "user",
+      "content": "De ahora en adelante busca solo en mis archivos de la boveda, si no esta el concepto lo puedes mencionar pero no busques por fuera\n",
+      "timestamp": 1789495522746
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido. A partir de ahora, buscaré únicamente en tus archivos de la bveda para responder a tus preguntas sobre la mecánica cuántica. Si el concepto no está presente en tus archivos, te indicaré que no lo he encontrado y te sugeriré fuentes alternativas. ¿Hay algo en particular sobre la mecánica cuántica que te interese?",
+      "timestamp": 1789495526630
+    },
+    {
+      "role": "user",
+      "content": "Que es la fisica Nuclear?\n",
+      "timestamp": 1789495558806
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola! La física nuclear es un campo de estudio muy amplio que se enfoca en la estructura, comportamiento y relaciones de las partículas elementales y los núcleos atómicos.  Esencialmente, investiga:\n\n*   **Núcleos:** Cómo están formados, qué tipo de átomos tienen (núcleos pesados vs. ligeros), y cómo interactúan entre sí.\n*   **Fisión Nuclear:** El proceso de dividir un núcleo pesado en dos o más núcleos más pequeños, y la energía liberada.  Es el principio detrás de las armas nucleares.\n*   **Fusión Nuclear:** El proceso de combinar dos núcleos atómicos ligeros para formar un núcleo más masivo, y la energía liberada (utilizada en reactores nucleares y estrellas).\n*   **Radioactividad:** El estudio de cómo los átomos se desintegran y producen partículas, y la naturaleza de los isótopos.\n*   **Modelos de Partículas Subatómicas:** La física nuclear utiliza modelos teóricos para entender la estructura subatómica de los núcleos, como el Modelo Estándar (que describe las partículas fundamentales) y otros modelos más complejos.\n\nEs una rama de la física con aplicaciones en medicina (radioterapia), energía nuclear (generación de electricidad) y ciencia de materiales.  ¿Quieres que profundicemos en algún aspecto específico de la física nuclear?",
+      "timestamp": 1789495572567
+    },
+    {
+      "role": "user",
+      "content": "Quienes fueron algunos cientificos importantes de la materia?\n",
+      "timestamp": 1789495626440
+    },
+    {
+      "role": "assistant",
+      "content": "¡Excelente pregunta! La materia, como un campo amplio, ha visto el ascenso de muchos científicos clave. Aquí te presento algunos de los más destacados, divididos por áreas:\n\n**1. El Origen y la Estructura del Universo (Primeras décadas):**\n\n*   **Max Planck:**  Considerado uno de los pioneros en la comprensión de la cuantización. Su teoría sobre el \"módulo\" (o \"cuanto\") en el electromagnetismo revolucionó la física.\n*   **Albert Einstein:**  Aunque más conocido por su Teoría Especial, su trabajo sobre la luz y la gravedad ayudó a dar forma al concepto de espacio-tiempo.\n*   **Niels Bohr:** Desarrolló la teoría del modelo atómico, que introdujo el concepto de órbitas cuantizadas alrededor del núcleo.\n\n**2. La Física Nuclear (Siglo XX):**\n\n*   **Ernest Rutherford:**  El \"padre\" de la física nuclear con su experimento del átomo, donde descubrió que los átomos están compuestos de partículas subatómicas.\n*   **James Chadwick:**  Descubrió el neutrón y es crucial para entender las reacciones nucleares, especialmente en la fisión nuclear. Su trabajo fue esencial para la comprensión de la radioactividad.\n*   **Marie Curie:** Pionera en el estudio de los elementos radiactivos, descubriendo el radio y el polonio.  También trabajó con el tratamiento del cáncer.\n\n**3. Desarrollo de la Física Nuclear Moderna (Segunda mitad del siglo XX):**\n\n*   **Hans Bethe:**  Fue uno de los principales investigadores en la comprensión de la fisión nuclear y su aplicación en armas nucleares.\n*   **Otto Hahn y Fritz Strassmann:** Desarrollaron el proceso de fisión nuclear, que se utilizó en las primeras bombas atómicas.\n*   **Richard Feynman:**  Fue un importante físico teórico que contribuyó a la formulación de la mecánica cuántica y a la comprensión del espectro electromagnético.\n\n**4. Otros pioneros importantes:**\n\n* **Paul Dirac:** Pionero en la mecánica cuántica y la física teórica.\n* **Werner Heisenberg:**  Desarrolló el principio de incertidumbre, un concepto fundamental en la física moderna.\n\nEsta lista no es exhaustiva, pero representa algunos de los nombres más influyentes en el estudio de la materia y su estructura. ¿Hay algún aspecto específico que quieras saber sobre alguno de estos científicos?",
+      "timestamp": 1789495651581
+    },
+    {
+      "role": "user",
+      "content": "Cuales son la aplicaciones tecnológicas del electromagnetismo?\n",
+      "timestamp": 1789495829698
+    },
+    {
+      "role": "assistant",
+      "content": "¡Excelente pregunta! El electromagnetismo es la base de muchísimas tecnologías que usamos a diario. Aquí te presento algunas de las aplicaciones más importantes:\n\n**1. Electricidad y Electrónicos:**\n\n*   **Electrónica:**  El electromagnetismo es fundamental para la construcción de todos los dispositivos electrónicos, desde teléfonos móviles hasta ordenadores. La electricidad, el voltaje y la corriente son principios básicos.\n*   **Energía eléctrica:** Generación y distribución de energía eléctrica a través de generadores y transformadores.\n\n**2. Comunicación:**\n\n*   **Radio y Televisión:**  La transmisión de ondas electromagnéticas por radio y televisión se basa en los principios del electromagnetismo para transmitir información.\n*   **Telefonía móvil (celular):** La comunicación inalámbrica celular, que utiliza ondas de radio, es el resultado directo de la comprensión del electromagnetismo.\n*   **Internet:** La transmisión de datos a través de internet, que depende de las señales electromagnéticas.\n\n**3. Transporte y Navegación:**\n\n*   **Túneles Magnéticos:** Utilizados en trenes de alta velocidad (como el Maglev) para reducir la fricción entre los trenes y el suelo.\n*   **Radar:** El radar (Radio Detection and Ranging) utiliza ondas electromagnéticas para detectar objetos,  usado en vehículos, aviones y satélites.\n*   **Sonar:** El sonar utiliza ondas de sonido que se reflejan en los objetos subyacentes, permitiendo la localización y la detección de objetos submarinos.\n\n**4. Medicina:**\n\n*   **Radioterapia:**  Las radiaciones ionizantes (rayos X, rayos gamma) utilizan el electromagnetismo para tratar el cáncer, destruyendo las células cancerosas.\n*   **Equipos de imagenología médica:** Rayos-X, tomografías computarizadas (CT), resonancias magnéticas (MRI) – todos se basan en la emisión y detección de ondas electromagnéticas.\n\n**5. Otras Aplicaciones:**\n\n*   **Magnetómetros:**  Utilizados para medir campos magnéticos, que son importantes en el navegación de los satélites, la exploración minera y la industria aeroespacial.\n*   **Sistemas de fijación:**  Los sistemas de fijación del cableado eléctrico (en hogares, edificios y vehículos) utilizan campos electromagnéticos para asegurar que los cables estén bien sujetos.\n\nEspero que esta lista te sea útil. ¿Hay algún aspecto en particular de las aplicaciones tecnológicas del electromagnetismo que te interese más?",
+      "timestamp": 1789495863939
+    },
+    {
+      "role": "user",
+      "content": "Cuales son las ramas de la fisica?\n",
+      "timestamp": 1789495919910
+    },
+    {
+      "role": "assistant",
+      "content": "¡Excelente pregunta! La física es un campo increíblemente vasto y se divide en numerosas ramas, cada una con sus propios intereses y metodologías. Aquí te presento las principales ramas, agrupadas por su enfoque:\n\n**1. Física Fundamental:** Estas ramas exploran los principios básicos del universo sin depender de la materia o la energía observada:\n\n*   **Mecánica Cuántica:**  La más importante y relevante para nuestra tecnología actual. Estudia el comportamiento de la materia y la energía a nivel atómico y subatómico.\n*   **Relatividad (Especial y General):** La teoría de Einstein describe la gravedad, el espacio-tiempo y la relación entre masa y energía. Es fundamental para entender el universo en su totalidad.\n*   **Teoría de Campos:**  Explora la naturaleza de campos electromagnéticos, químicos y gravitacionales.\n*   **Física Nuclear y Partículas:** Se enfoca en los núcleos atómicos, las partículas subatómicas y las fuerzas fundamentales que gobiernan el universo.\n\n**2. Física Experimental:** Estas ramas se centran en la experimentación y la medición:\n\n*   **Física de Materia Condensada:** Estudia la materia en estado fundido (como metales) o sólido, investigando sus propiedades físicas y sus comportamientos a nivel microscópico.\n*   **Física Experimental de Ondas:**  Se centra en el estudio de fenómenos como ondas electromagnéticas, sonido, luz y vibraciones.\n*   **Física de la Materia Estática:** Se enfoca en estudiar las propiedades de objetos estáticos, como la magnetismo y la electricidad estática.\n*   **Física Estadística:** Estudia la distribución de partículas en sistemas con un gran número de partículas, como gases o líquidos.\n\n**3. Física Aplicada (Relacionada con Tecnología):**  Estas ramas utilizan los principios físicos para resolver problemas prácticos:\n\n*   **Electrónica y Optoelectrónica:** Diseño y desarrollo de dispositivos electrónicos (microchips, pantallas, etc.).\n*   **Física Médica:** Aplicación de principios físicos a la medicina para el diagnóstico, tratamiento y prevención de enfermedades.\n*   **Astrofísica:** Estudio del universo y las estrellas.\n*   **Geofísica:**  Utilización de la física para estudiar la Tierra (magnetismo, terremotos, etc.).\n*   **Física de Materiales:** Desarrollo de nuevos materiales con propiedades específicas.\n\n**4. Otras ramas más especializadas:**\n\n*   **Física Teórica:**  Estudia conceptos abstractos y matemáticos que describen el universo a gran escala.\n*   **Física de la Relatividad General:** Estudia la gravedad como una consecuencia de la curvatura del espacio-tiempo.\n*   **Física de Partículas Elementales:**  Investiga las propiedades fundamentales de los constituyentes básicos del universo (quarks, leptones, etc.).\n\nEspero que esta lista te sea útil para comprender la amplitud de la física! ¿Hay alguna rama en particular que te interese más?",
+      "timestamp": 1789495952148
+    },
+    {
+      "role": "user",
+      "content": "ingresar fuentes\n",
+      "timestamp": 1789499520825
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": 1789499523209
+    },
+    {
+      "role": "user",
+      "content": "que es la gravedad cuantica de bucles\n",
+      "timestamp": 1789499543615
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": 1789499545956
+    },
+    {
+      "role": "user",
+      "content": "hola\n",
+      "timestamp": 1789499559151
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": 1789499561475
+    }
+  ],
+  "enableSchema": true,
+  "tagVocabularyMode": "default",
+  "customEntityTags": "",
+  "customConceptTags": "",
+  "extractionGranularity": "standard",
+  "autoWatchSources": true,
+  "autoWatchMode": "notify",
+  "autoWatchDebounceMs": 5000,
+  "watchedFolders": [
+    "/"
+  ],
+  "periodicLint": "off",
+  "startupCheck": true,
+  "startupCheckNoticeLevel": "visible",
+  "autoSmartFix": false,
+  "autoIngestNotificationLevel": "notice",
+  "showAdvancedSettings": true,
+  "createWelcomeNote": true,
+  "pageGenerationConcurrency": 3,
+  "batchDelayMs": 500,
+  "lastOfferedQueryHash": "",
+  "llmReady": true,
+  "maxTokensPerCall": 0,
+  "disableThinking": false,
+  "advancedSettingsMode": "default",
+  "forcePdfSupport": false,
+  "writePdfMarkdownToVault": false,
+  "skipMentionOnlyCandidates": false,
+  "gateDissentStubs": false,
+  "createStubsForUnresolvableLinks": true,
+  "slugCase": "lower",
+  "customQueryInstructions": "",
+  "bedrockRegion": "us-east-1",
+  "bedrockAuthMethod": "api-key",
+  "bedrockSsoStartUrl": "",
+  "_migrated_v1_23_0_startup_notice": true,
+  "_migrated_v1_25_3_secret_storage": true,
+  "_migrated_v1_27_0_markdown_conversion_backend": true
+}

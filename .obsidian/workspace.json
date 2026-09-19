@@ -6,9 +6,31 @@
       {
         "id": "8086f1051380d909",
         "type": "tabs",
+        "dimension": 22.63814616755793,
         "children": [
           {
             "id": "660706c587a84c35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Física Clásica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Física Clásica"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d9ed5a2d58da1b54",
+        "type": "tabs",
+        "dimension": 77.36185383244207,
+        "children": [
+          {
+            "id": "1678a69a954c36f9",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -199,6 +221,8 @@
   },
   "active": "660706c587a84c35",
   "lastOpenFiles": [
+    "Mecánica Cuántica.md",
+    "Física Clásica.md",
     "README.md",
     "La Unificación.md",
     "Ecuación de Schrödinger.md",
@@ -217,9 +241,7 @@
     "Física de Partículas.md",
     "Quarks.md",
     "Gluones.md",
-    "Mecánica Cuántica.md",
     "Erwin Schrödinger.md",
-    "Física Clásica.md",
     "Isaac Newton.md",
     "Aceleración.md",
     "Teoría de la Relatividad.md",
